@@ -1,0 +1,75 @@
+body{
+    background:#F4F4F4;
+    margin:0 auto;
+}
+#container{
+    width:1250px;
+    /*height:750px;*/
+    margin:0 auto;
+    background:#FFF;
+}
+#header{ 
+    text-align:center;
+}
+#header h1{
+    padding-top:25px;
+}
+#maintable{
+    width:825px;
+}
+.enterdatatable{
+    margin-top:10px;
+    width:800px;
+}
+.enterdatatable input{
+    width:100%;    
+    font-size:16px;
+}
+table{
+    margin:0 auto;
+    border:1px solid black;
+    font-family: arial, sans-serif;
+    font-size:16px;
+    border-collapse: collapse;
+}
+td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+/* #datatable tr:nth-child(even) {
+    background-color: #dddddd;
+} */
+#datatable{
+    font-size:12px;
+}
+#sendrow{
+    font-size:20px;
+    width:100%;
+}
+footer{
+    margin-top:10px;
+    padding:6px 40px 6px 40px;
+    background:#d6d6d6;
+    font-family:"Lucida Sans Unicode";
+    color:#444444;
+    font-size:12.5px;
+    text-decoration:right;
+    text-align:center;
+}
+footer a{
+    text-decoration:none;
+    color:#262626;
+}
+footer a:hover{
+    color:#b8b2b2;
+}
+.btn_deleterow{
+    width: 20px;
+    height: 20px;
+}
+li .nav-item{
+    font-size:18px;
+    cursor: pointer;
+    padding-right:32px;
+}
